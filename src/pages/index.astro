@@ -1,16 +1,93 @@
 ---
-import Layout from '../layouts/Layout.astro';
+// src/pages/index.astro
+
+import Layout from "../layouts/Layout.astro";
+
+const featuredParks = [
+  {
+    slug: "yosemite",
+    name: "Yosemite National Park",
+    location: "California",
+    hero: "/images/parks/yosemite-hero.jpg",
+  },
+  {
+    slug: "grand-canyon",
+    name: "Grand Canyon National Park",
+    location: "Arizona",
+    hero: "/images/parks/grand-canyon-hero.jpg",
+  },
+  {
+    slug: "olympic",
+    name: "Olympic National Park",
+    location: "Washington",
+    hero: "/images/parks/olympic-hero.jpg",
+  },
+];
 ---
 
-<Layout>
-  <h1>Jeff's National Parks Photo Gallery</h1>
-  <p>
-    Welcome! This site will grow into a personal gallery of my U.S. National Parks
-    photos.
-  </p>
+<Layout title="National Parks Photo Gallery">
+  <!-- Hero -->
+  <section
+    class="hero"
+    aria-labelledby="hero-title"
+  >
+    <div
+      class="hero__image"
+      style={`background-image: url('/images/hero-example.jpg');`}
+    ></div>
+    <div class="hero__overlay"></div>
 
-  <ul>
-    <li><a href="/parks">View parks</a></li>
-    <li><a href="/about">About this project</a></li>
-  </ul>
+    <div class="hero__content">
+      <h1 id="hero-title" class="hero__title">
+        National Parks Photo Gallery
+      </h1>
+      <p class="hero__subtitle">
+        A personal collection of landscapes, trails, and quiet moments from
+        the national parks I’ve explored.
+      </p>
+
+      <div class="hero__actions">
+        <a href="/parks/" class="button button--primary">
+          Explore the Parks
+        </a>
+        <a href="/about/" class="button button--ghost">
+          About this project
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro + park preview -->
+  <section class="section">
+    <div class="container">
+      <div class="section__heading">
+        <h2>Explore the Parks</h2>
+        <p>
+          Each park below opens into its own gallery with photos from my visits.
+        </p>
+      </div>
+
+      <div class="park-grid">
+        {featuredParks.map((park) => (
+          <a href={`/parks/${park.slug}/`} class="park-card">
+            <img
+              src={park.hero}
+              alt={park.name}
+              class="park-card__image"
+            />
+            <div class="park-card__body">
+              <h3 class="park-card__title">{park.name}</h3>
+              <p class="park-card__meta">{park.location}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div style="text-align:center; margin-top: 1.5rem;">
+        <a href="/parks/" class="button button--ghost">
+          View all parks
+        </a>
+      </div>
+    </div>
+  </section>
 </Layout>

@@ -1,8 +1,60 @@
 ---
-import Layout from '../layouts/Layout.astro';
+// src/pages/parks/index.astro
+
+import Layout from "../../layouts/Layout.astro";
+
+const parks = [
+  {
+    slug: "yosemite",
+    name: "Yosemite National Park",
+    location: "California",
+    hero: "/images/parks/yosemite-hero.jpg",
+    blurb: "Granite cliffs, waterfalls, and high-country trails.",
+  },
+  {
+    slug: "grand-canyon",
+    name: "Grand Canyon National Park",
+    location: "Arizona",
+    hero: "/images/parks/grand-canyon-hero.jpg",
+    blurb: "Layered rock, endless horizons, and canyon light.",
+  },
+  {
+    slug: "olympic",
+    name: "Olympic National Park",
+    location: "Washington",
+    hero: "/images/parks/olympic-hero.jpg",
+    blurb: "Rainforests, rugged coast, and alpine ridges.",
+  },
+  // Add more as you go...
+];
 ---
 
-<Layout>
-  <h1>National Parks</h1>
-  <p>This is the Parks page. It now uses the shared layout.</p>
+<Layout title="All Parks">
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section__heading">
+        <h2>All Parks</h2>
+        <p>
+          Choose a park to see its dedicated gallery and stories from my visits.
+        </p>
+      </div>
+
+      <div class="park-grid">
+        {parks.map((park) => (
+          <a href={`/parks/${park.slug}/`} class="park-card">
+            <img
+              src={park.hero}
+              alt={park.name}
+              class="park-card__image"
+            />
+            <div class="park-card__body">
+              <h3 class="park-card__title">{park.name}</h3>
+              <p class="park-card__meta">{park.location}</p>
+              <p class="park-card__meta">{park.blurb}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
 </Layout>

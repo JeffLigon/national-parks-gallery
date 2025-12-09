@@ -1,32 +1,54 @@
 <!doctype html>
+---
+const { title = "National Parks Photo Gallery" } = Astro.props;
+---
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<header>
-    		<nav style="display: flex; gap: 1rem; padding: 1rem;">
-      			<a href="/">Home</a>
-      			<a href="/about">About</a>
-      			<a href="/parks">Parks</a>
-    		</nav>
-  		</header>
+		<title>{title}</title>
+		<!-- Google Fonts: Merriweather + Source Sans Pro -->
+        <link
+      		rel="preconnect"
+      		href="https://fonts.googleapis.com"
+    	/>
+    	<link
+      		rel="preconnect"
+      		href="https://fonts.gstatic.com"
+      		crossorigin
+    	/>
+    	<link
+      		href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap"
+      		rel="stylesheet"
+    	/>
 
-  		<main>
-    		<slot />
-  		</main>
-	</body>
+    	<link rel="stylesheet" href="/styles/global.css" />
+	</head>
+ <body>
+	<header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/">National Parks Gallery</a>
+        <nav class="nav">
+          <a href="/">Home</a>
+          <a href="/parks/">All Parks</a>
+          <a href="/about/">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© {new Date().getFullYear()} Jeff Ligon</p>
+        <p>National Parks Photo Gallery</p>
+      </div>
+    </footer>
+  </body>
 </html>
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+
