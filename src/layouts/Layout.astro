@@ -1,29 +1,43 @@
 ---
 import "../styles/global.css";
-
-interface Props {
-  title?: string;
-}
-
-const { title = "National Parks Gallery" } = Astro.props;
+const { title = "National Parks Photo Gallery" } = Astro.props;
 ---
 
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <title>{title}</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <header>
-      <h1>National Parks Gallery</h1>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/">National Parks Gallery</a>
+        <nav class="nav">
+          <a href="/">Home</a>
+          <a href="/parks">All Parks</a>
+          <a href="/about">About</a>
+        </nav>
+      </div>
     </header>
 
     <main>
       <slot />
     </main>
 
-    <footer>
-      <p>© {new Date().getFullYear()} National Parks Gallery</p>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© {new Date().getFullYear()} Jeff Ligon</p>
+        <p>National Parks Photo Gallery</p>
+      </div>
     </footer>
   </body>
 </html>

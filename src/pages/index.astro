@@ -2,12 +2,24 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Home">
-  <h2>Hello from Astro</h2>
-  <p>If you can see this, your layout and routing are working.</p>
+<Layout title="National Parks Photo Gallery">
+  <section
+    class="hero"
+  >
+    <div
+      class="hero__image"
+      style={`background-image: url('/images/hero-example.jpg');`}
+    ></div>
 
-  <p>
-    Try visiting the <a href="/parks">/parks</a> page (if it exists), or just
-    stay here while we build out the site.
-  </p>
+    <div class="hero__content">
+      <h1 class="hero__title">National Parks Photo Gallery</h1>
+      <p class="hero__subtitle">
+        A collection of moments, landscapes, and memories from the parks I’ve explored.
+      </p>
+
+      <a href="/parks" class="button button--primary">
+        Explore the Parks
+      </a>
+    </div>
+  </section>
 </Layout>
