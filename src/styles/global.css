@@ -254,3 +254,183 @@ body {
   flex-wrap: wrap;
   color: var(--color-muted);
 }
+
+/* -------------------------------------------------------
+   BUTTON (ghost variant)
+------------------------------------------------------- */
+.button--ghost {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(249, 250, 251, 0.7);
+}
+
+.button--ghost:hover {
+  background: rgba(15, 23, 42, 0.35);
+}
+
+/* -------------------------------------------------------
+   PARK PAGE (Hero + Intro + Masonry gallery)
+------------------------------------------------------- */
+.park-hero {
+  position: relative;
+  min-height: 62vh;
+  display: grid;
+  align-items: end;
+  color: #fff;
+  overflow: hidden;
+}
+
+.park-hero__image {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.65);
+  transform: scale(1.02);
+}
+
+.park-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0.75));
+}
+
+.park-hero__content {
+  position: relative;
+  z-index: 2;
+  padding: 4rem 0 2.5rem;
+}
+
+.park-hero__kicker {
+  margin: 0 0 0.4rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.9;
+  font-size: 0.85rem;
+}
+
+.park-hero__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  margin: 0 0 0.5rem;
+}
+
+.park-hero__subtitle {
+  max-width: 42rem;
+  margin: 0 0 1.25rem;
+  color: rgba(249, 250, 251, 0.92);
+  font-size: 1.05rem;
+}
+
+.park-hero__actions {
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+/* Intro */
+.park-intro {
+  padding: 2.5rem 0;
+  background: var(--color-bg);
+}
+
+.park-intro__card {
+  background: #fdfbf7;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-subtle);
+  padding: 1.5rem 1.5rem;
+}
+
+.park-intro__card h2 {
+  font-family: var(--font-heading);
+  margin: 0 0 0.6rem;
+}
+
+.park-intro__card p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 1rem;
+}
+
+/* Gallery */
+.park-gallery {
+  padding: 2.5rem 0 3.5rem;
+  background: var(--color-bg-alt);
+}
+
+.park-gallery__header {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.park-gallery__header h2 {
+  font-family: var(--font-heading);
+  margin: 0 0 0.35rem;
+  font-size: 1.8rem;
+}
+
+.park-gallery__header p {
+  margin: 0 auto;
+  max-width: 34rem;
+  color: var(--color-muted);
+}
+
+/* Masonry using CSS columns (simple + solid) */
+.masonry {
+  column-count: 3;
+  column-gap: 1.5rem;
+}
+
+.masonry__item {
+  break-inside: avoid;
+  display: block;
+  margin: 0 0 1.5rem;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  position: relative;
+}
+
+.masonry__item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.masonry__caption {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0));
+  color: rgba(249, 250, 251, 0.95);
+  font-weight: 600;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.masonry__item:hover .masonry__caption {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.park-gallery__footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .masonry {
+    column-count: 1;
+  }
+}

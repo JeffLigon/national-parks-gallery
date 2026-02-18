@@ -1,0 +1,105 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+
+const park = {
+  name: "Yosemite National Park",
+  location: "California",
+  hero: "/images/parks/yosemite.jpg",
+  subtitle: "Granite cliffs, waterfalls, and high-country light.",
+  intro: `
+Yosemite is one of those places that feels unreal in person — towering granite,
+deep valleys, and that constant sense that the landscape is larger than your
+camera can capture.
+`.trim(),
+};
+
+const photos = [
+  {
+    src: "/images/parks/yosemite/gallery/IMG_3279.JPG",
+    alt: "Yosemite Valley view",
+    title: "Valley Morning",
+  },
+  {
+    src: "/images/parks/yosemite/gallery/IMG_3281.JPG",
+    alt: "Waterfall in Yosemite",
+    title: "Falls & Mist",
+  },
+  {
+    src: "/images/parks/yosemite/gallery/IMG_3283.JPG",
+    alt: "Granite cliff face in Yosemite",
+    title: "Granite Walls",
+  },
+  {
+    src: "/images/parks/yosemite/gallery/P6190035.JPG",
+    alt: "Forest trail in Yosemite",
+    title: "Pine Trail",
+  },
+  {
+    src: "/images/parks/yosemite/gallery/P6190088.JPG",
+    alt: "Sunset light over Yosemite landscape",
+    title: "Golden Hour",
+  },
+  {
+    src: "/images/parks/yosemite/gallery/P6190146.JPG",
+    alt: "River in Yosemite",
+    title: "River Bend",
+  },
+];
+---
+
+<Layout title={park.name}>
+  <!-- Park Hero -->
+  <section class="park-hero">
+    <div
+      class="park-hero__image"
+      style={`background-image: url('${park.hero}');`}
+    ></div>
+    <div class="park-hero__overlay"></div>
+
+    <div class="container park-hero__content">
+      <p class="park-hero__kicker">{park.location}</p>
+      <h1 class="park-hero__title">{park.name}</h1>
+      <p class="park-hero__subtitle">{park.subtitle}</p>
+
+      <div class="park-hero__actions">
+        <a class="button button--primary" href="#gallery">View Gallery</a>
+        <a class="button button--ghost" href="/parks">← All Parks</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="park-intro">
+    <div class="container">
+      <div class="park-intro__card">
+        <h2>About this visit</h2>
+        <p>{park.intro}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="park-gallery" id="gallery">
+    <div class="container">
+      <div class="park-gallery__header">
+        <h2>Gallery</h2>
+        <p>Click any photo to view it larger later (Phase 2).</p>
+      </div>
+
+      <div class="masonry">
+        {photos.map((photo) => (
+          <a class="masonry__item" href={photo.src}>
+            <img src={photo.src} alt={photo.alt} loading="lazy" />
+            <div class="masonry__caption">
+              <span>{photo.title}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div class="park-gallery__footer">
+        <a class="button button--ghost" href="/parks">← Back to All Parks</a>
+      </div>
+    </div>
+  </section>
+</Layout>
