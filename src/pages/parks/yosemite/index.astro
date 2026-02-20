@@ -1,5 +1,7 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
+import LightboxGallery from "../../../components/LightboxGallery.astro";
+import PhotoSwipeInit from "../../../components/PhotoSwipeInit.jsx";
 
 const park = {
   name: "Yosemite National Park",
@@ -13,34 +15,48 @@ camera can capture.
 `.trim(),
 };
 
+// IMPORTANT: width/height should match the actual image dimensions.
+// You can update these later; PhotoSwipe just needs something.
 const photos = [
   {
     src: "/images/parks/yosemite/gallery/IMG_3279.JPG",
+    width: 2400,
+    height: 1600,
     alt: "Yosemite Valley view",
     title: "Valley Morning",
   },
   {
     src: "/images/parks/yosemite/gallery/IMG_3281.JPG",
+    width: 1600,
+    height: 2400,
     alt: "Waterfall in Yosemite",
     title: "Falls & Mist",
   },
   {
-    src: "/images/parks/yosemite/gallery/IMG_3283.JPG",
+    src: "/images/parks/yosemite/gallery/P6190035.JPG",
+    width: 2400,
+    height: 1600,
     alt: "Granite cliff face in Yosemite",
     title: "Granite Walls",
   },
   {
-    src: "/images/parks/yosemite/gallery/P6190035.JPG",
+    src: "/images/parks/yosemite/gallery/P6190088.JPG",
+    width: 1600,
+    height: 2400,
     alt: "Forest trail in Yosemite",
     title: "Pine Trail",
   },
   {
-    src: "/images/parks/yosemite/gallery/P6190088.JPG",
+    src: "/images/parks/yosemite/gallery/P6190146.JPG",
+    width: 2400,
+    height: 1600,
     alt: "Sunset light over Yosemite landscape",
     title: "Golden Hour",
   },
   {
-    src: "/images/parks/yosemite/gallery/P6190146.JPG",
+    src: "/images/parks/yosemite/gallery/IMG_3283.JPG",
+    width: 2400,
+    height: 1600,
     alt: "River in Yosemite",
     title: "River Bend",
   },
@@ -83,19 +99,10 @@ const photos = [
     <div class="container">
       <div class="park-gallery__header">
         <h2>Gallery</h2>
-        <p>Click any photo to view it larger later (Phase 2).</p>
+        <p>Click any photo to open a fullscreen viewer with left/right navigation.</p>
       </div>
 
-      <div class="masonry">
-        {photos.map((photo) => (
-          <a class="masonry__item" href={photo.src}>
-            <img src={photo.src} alt={photo.alt} loading="lazy" />
-            <div class="masonry__caption">
-              <span>{photo.title}</span>
-            </div>
-          </a>
-        ))}
-      </div>
+      <LightboxGallery photos={photos} galleryId="yosemite-gallery" />
 
       <div class="park-gallery__footer">
         <a class="button button--ghost" href="/parks">← Back to All Parks</a>

@@ -1,0 +1,40 @@
+
+const photos = [
+  {
+    src: "/images/parks/yosemite/gallery/IMG_3279.JPG",
+    alt: "Yosemite Valley view",
+    title: "Valley Morning",
+  },
+  {
+    src: "/images/parks/yosemite/gallery/IMG_3281.JPG",
+    alt: "Waterfall in Yosemite",
+    title: "Falls & Mist",
+  },
+  {
+    src: "/images/parks/yosemite/gallery/IMG_3283.JPG",
+    alt: "Granite cliff face in Yosemite",
+    title: "Granite Walls",
+  },
+  {
+    src: "/images/parks/yosemite/gallery/P6190035.JPG",
+    alt: "Forest trail in Yosemite",
+    title: "Pine Trail",
+  },
+  {
+    src: "/images/parks/yosemite/gallery/P6190088.JPG",
+    alt: "Sunset light over Yosemite landscape",
+    title: "Golden Hour",
+  },
+  {
+    src: "/images/parks/yosemite/gallery/P6190146.JPG",
+    alt: "River in Yosemite",
+    title: "River Bend",
+  },
+];
+---
+
+src: "/images/parks/yosemite/gallery/IMG_3279.JPG",
+src: "/images/parks/yosemite/gallery/IMG_3281.JPG",
+src: "/images/parks/yosemite/gallery/P6190035.JPG",
+src: "/images/parks/yosemite/gallery/P6190088.JPG",
+src: "/images/parks/yosemite/gallery/P6190146.JPG",
