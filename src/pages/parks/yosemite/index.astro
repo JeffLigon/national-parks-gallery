@@ -1,7 +1,11 @@
 ---
+import fs from "node:fs";
+import path from "node:path";
+
 import Layout from "../../../layouts/Layout.astro";
 import LightboxGallery from "../../../components/LightboxGallery.astro";
 import PhotoSwipeInit from "../../../components/PhotoSwipeInit.jsx";
+import { getPublicImageSize } from "../../../lib/imageMeta.js";
 
 const park = {
   name: "Yosemite National Park",
@@ -15,52 +19,45 @@ camera can capture.
 `.trim(),
 };
 
-// IMPORTANT: width/height should match the actual image dimensions.
-// You can update these later; PhotoSwipe just needs something.
-const photos = [
-  {
-    src: "/images/parks/yosemite/gallery/IMG_3279.JPG",
-    width: 2400,
-    height: 1600,
-    alt: "Yosemite Valley view",
-    title: "Valley Morning",
-  },
-  {
-    src: "/images/parks/yosemite/gallery/IMG_3281.JPG",
-    width: 1600,
-    height: 2400,
-    alt: "Waterfall in Yosemite",
-    title: "Falls & Mist",
-  },
-  {
-    src: "/images/parks/yosemite/gallery/P6190035.JPG",
-    width: 2400,
-    height: 1600,
-    alt: "Granite cliff face in Yosemite",
-    title: "Granite Walls",
-  },
-  {
-    src: "/images/parks/yosemite/gallery/P6190088.JPG",
-    width: 1600,
-    height: 2400,
-    alt: "Forest trail in Yosemite",
-    title: "Pine Trail",
-  },
-  {
-    src: "/images/parks/yosemite/gallery/P6190146.JPG",
-    width: 2400,
-    height: 1600,
-    alt: "Sunset light over Yosemite landscape",
-    title: "Golden Hour",
-  },
-  {
-    src: "/images/parks/yosemite/gallery/IMG_3283.JPG",
-    width: 2400,
-    height: 1600,
-    alt: "River in Yosemite",
-    title: "River Bend",
-  },
-];
+const galleryId = "yosemite-gallery";
+
+/**
+ * Auto-discover images in:
+ *   public/images/parks/yosemite/gallery/
+ */
+const galleryDir = path.join(
+  process.cwd(),
+  "public",
+  "images",
+  "parks",
+  "yosemite",
+  "gallery"
+);
+
+const photoFiles = fs
+  .readdirSync(galleryDir)
+  .filter((name) => !name.startsWith("."))
+  .filter((name) => /\.(jpe?g|png|webp)$/i.test(name))
+  .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+/**
+ * Build PhotoSwipe metadata (width/height must match display orientation).
+ * NOTE: getPublicImageSize is async in the fixed imageMeta.js below.
+ */
+const photos = await Promise.all(
+  photoFiles.map(async (filename) => {
+    const src = `/images/parks/yosemite/gallery/${filename}`;
+    const { width, height } = await getPublicImageSize(src);
+
+    return {
+      src,
+      width,
+      height,
+      title: filename,
+      alt: filename,
+    };
+  })
+);
 ---
 
 <Layout title={park.name}>
@@ -102,7 +99,8 @@ const photos = [
         <p>Click any photo to open a fullscreen viewer with left/right navigation.</p>
       </div>
 
-      <LightboxGallery photos={photos} galleryId="yosemite-gallery" />
+      <LightboxGallery photos={photos} galleryId={galleryId} />
+      <PhotoSwipeInit client:load galleryId={galleryId} />
 
       <div class="park-gallery__footer">
         <a class="button button--ghost" href="/parks">← Back to All Parks</a>
