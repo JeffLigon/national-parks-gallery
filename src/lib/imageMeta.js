@@ -28,7 +28,7 @@ export async function getPublicImageSize(publicRelativePath) {
   // EXIF orientation values 5–8 imply rotated display orientation
   let orientation = 1;
   try {
-    const exif = await exifr.parse(buf, { pick: ["Orientation"] });
+    const exif = await exifr.parse(buf, { pick: ["Orientation"], translateValues: false });
     if (exif?.Orientation) orientation = exif.Orientation;
   } catch {
     // ignore missing/invalid EXIF
