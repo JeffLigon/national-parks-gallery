@@ -1,0 +1,116 @@
+---
+import fs from "node:fs";
+import path from "node:path";
+
+import Layout from "../../../layouts/Layout.astro";
+import LightboxGallery from "../../../components/LightboxGallery.astro";
+import PhotoSwipeInit from "../../../components/PhotoSwipeInit.jsx";
+import { getPublicImageSize } from "../../../lib/imageMeta.js";
+
+const park = {
+  name: "Virgin Islands National Park",
+  location: "U.S. Virgin Islands",
+  yearVisited: 2021,
+  hero: "/images/parks/virgin-islands.jpg",
+  subtitle: "Turquoise bays, coral reefs, and tropical hillsides.",
+  description: `Add your description of Virgin Islands here.`.trim(),
+  howToGetThere: {
+    airport: "St. Thomas (STT)",
+    notes: "Take a ferry from Red Hook to Cruz Bay on St. John — about 20 minutes.",
+  },
+  placesToStay: [
+    { label: "Add your accommodation here", url: "#" },
+  ],
+};
+
+const galleryId = "virgin-islands-gallery";
+
+const galleryDir = path.join(
+  process.cwd(),
+  "public",
+  "images",
+  "parks",
+  "virgin-islands"
+);
+
+const photoFiles = fs
+  .readdirSync(galleryDir)
+  .filter((name) => !name.startsWith("."))
+  .filter((name) => /\.(jpe?g|png|webp)$/i.test(name))
+  .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+const photos = await Promise.all(
+  photoFiles.map(async (filename) => {
+    const src = `/images/parks/virgin-islands/${filename}`;
+    const { width, height } = await getPublicImageSize(src);
+
+    return {
+      src,
+      width,
+      height,
+      title: filename,
+      alt: filename,
+    };
+  })
+);
+---
+
+<Layout title={park.name}>
+  <!-- Park Hero -->
+  <section class="park-hero">
+    <div
+      class="park-hero__image"
+      style={`background-image: url('${park.hero}');`}
+    ></div>
+    <div class="park-hero__overlay"></div>
+
+    <div class="container park-hero__content">
+      <p class="park-hero__kicker">{park.location} · {park.yearVisited}</p>
+      <h1 class="park-hero__title">{park.name}</h1>
+      <p class="park-hero__subtitle">{park.subtitle}</p>
+
+      <div class="park-hero__actions">
+        <a class="button button--primary" href="#gallery">View Gallery</a>
+        <a class="button button--ghost" href="/parks">← All Parks</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="park-intro">
+    <div class="container">
+      <div class="park-intro__card">
+        <h2>About this visit</h2>
+        <p>{park.description}</p>
+
+        <h3>How to get there</h3>
+        <p><strong>Fly into:</strong> {park.howToGetThere.airport}</p>
+        <p>{park.howToGetThere.notes}</p>
+
+        <h3>Places to stay</h3>
+        <ul>
+          {park.placesToStay.map((place) => (
+            <li><a href={place.url} target="_blank" rel="noopener">{place.label}</a></li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="park-gallery" id="gallery">
+    <div class="container">
+      <div class="park-gallery__header">
+        <h2>Gallery</h2>
+        <p>Click any photo to open a fullscreen viewer with left/right navigation.</p>
+      </div>
+
+      <LightboxGallery photos={photos} galleryId={galleryId} />
+      <PhotoSwipeInit client:load galleryId={galleryId} />
+
+      <div class="park-gallery__footer">
+        <a class="button button--ghost" href="/parks">← Back to All Parks</a>
+      </div>
+    </div>
+  </section>
+</Layout>
