@@ -12,11 +12,20 @@ const park = {
   location: "California",
   hero: "/images/parks/yosemite.jpg",
   subtitle: "Granite cliffs, waterfalls, and high-country light.",
-  intro: `
-Yosemite is one of those places that feels unreal in person — towering granite,
-deep valleys, and that constant sense that the landscape is larger than your
-camera can capture.
+  description: `
+Yosemite is probably my favorite national park. When you first drive in the major
+road and you see the landscape the words "awe-inspiring" comes to mind, and I think this
+is the type of place where the word was invented. Everywhere you look, there
+ is some magnificent stone face or a giant waterfall or a beautiful valley or a
+ beautiful mountain stream.  Everywhere you look is a feast for the eyes.
 `.trim(),
+  howToGetThere: {
+    airport: "San Francisco (SFO)",
+    notes: "Rent a car at the airport — it's about a 3 hour drive to the valley.",
+  },
+  placesToStay: [
+    { label: "We stayed in an Airbnb in Groveland, CA", url: "https://www.airbnb.com/s/Yosemite-National-Park--CA/" },
+  ],
 };
 
 const galleryId = "yosemite-gallery";
@@ -30,8 +39,7 @@ const galleryDir = path.join(
   "public",
   "images",
   "parks",
-  "yosemite",
-  "gallery"
+  "yosemite"
 );
 
 const photoFiles = fs
@@ -46,7 +54,7 @@ const photoFiles = fs
  */
 const photos = await Promise.all(
   photoFiles.map(async (filename) => {
-    const src = `/images/parks/yosemite/gallery/${filename}`;
+    const src = `/images/parks/yosemite/${filename}`;
     const { width, height } = await getPublicImageSize(src);
 
     return {
@@ -86,7 +94,18 @@ const photos = await Promise.all(
     <div class="container">
       <div class="park-intro__card">
         <h2>About this visit</h2>
-        <p>{park.intro}</p>
+        <p>{park.description}</p>
+
+        <h3>How to get there</h3>
+        <p><strong>Fly into:</strong> {park.howToGetThere.airport}</p>
+        <p>{park.howToGetThere.notes}</p>
+
+        <h3>Places to stay</h3>
+        <ul>
+          {park.placesToStay.map((place) => (
+            <li><a href={place.url} target="_blank" rel="noopener">{place.label}</a></li>
+          ))}
+        </ul>
       </div>
     </div>
   </section>
