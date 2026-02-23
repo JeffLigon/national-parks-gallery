@@ -6,6 +6,7 @@ const parks = [
     slug: "yosemite",
     name: "Yosemite National Park",
     location: "California",
+    yearVisited: 2017,
     hero: "/images/parks/yosemite.jpg",
     blurb: "Granite cliffs, waterfalls, and quiet valleys in the Sierra Nevada.",
   },
@@ -13,6 +14,7 @@ const parks = [
     slug: "grand-canyon",
     name: "Grand Canyon National Park",
     location: "Arizona",
+    yearVisited: null,
     hero: "/images/parks/grandcanyon.jpg",
     blurb: "Layered rock and canyon light that changes by the minute.",
   },
@@ -20,6 +22,7 @@ const parks = [
     slug: "olympic",
     name: "Olympic National Park",
     location: "Washington",
+    yearVisited: null,
     hero: "/images/parks/olympic.jpg",
     blurb: "Rainforests, rugged coastline, and alpine peaks.",
   },
@@ -27,6 +30,7 @@ const parks = [
     slug: "yellowstone",
     name: "Yellowstone National Park",
     location: "Wyoming",
+    yearVisited: null,
     hero: "/images/parks/yellowstone.jpg",
     blurb:
       "Geysers, hot springs, wildlife, and vast open spaces on a volcanic plateau.",
@@ -53,7 +57,7 @@ const parks = [
               />
               <div class="park-card__label">
                 <p class="park-card__name">{park.name}</p>
-                <p class="park-card__location">{park.location}</p>
+                <p class="park-card__location">{park.location}{park.yearVisited ? ` · ${park.yearVisited}` : ""}</p>
               </div>
             </div>
 
