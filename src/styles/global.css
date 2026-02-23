@@ -377,14 +377,14 @@ body {
 
 /* Masonry using CSS columns (simple + solid) */
 .masonry {
-  column-count: 3;
-  column-gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: start;
 }
 
 .masonry__item {
-  break-inside: avoid;
   display: block;
-  margin: 0 0 1.5rem;
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-soft);
@@ -425,12 +425,12 @@ body {
 /* Responsive */
 @media (max-width: 900px) {
   .masonry {
-    column-count: 2;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 640px) {
   .masonry {
-    column-count: 1;
+    grid-template-columns: 1fr;
   }
 }
