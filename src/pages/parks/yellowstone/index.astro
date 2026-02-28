@@ -39,23 +39,30 @@ const galleryDir = path.join(
 const photoFiles = fs
   .readdirSync(galleryDir)
   .filter((name) => !name.startsWith("."))
-  .filter((name) => /\.(jpe?g|png|webp)$/i.test(name))
-  .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  .filter((name) => /\.(jpe?g|png|webp)$/i.test(name));
 
-const photos = await Promise.all(
-  photoFiles.map(async (filename) => {
-    const src = `/images/parks/yellowstone/${filename}`;
-    const { width, height } = await getPublicImageSize(src);
+const photos = (
+  await Promise.all(
+    photoFiles.map(async (filename) => {
+      const src = `/images/parks/yellowstone/${filename}`;
+      const { width, height, dateTaken } = await getPublicImageSize(src);
 
-    return {
-      src,
-      width,
-      height,
-      title: filename,
-      alt: filename,
-    };
-  })
-);
+      return {
+        src,
+        width,
+        height,
+        dateTaken,
+        title: filename,
+        alt: filename,
+      };
+    })
+  )
+).sort((a, b) => {
+  if (a.dateTaken === null && b.dateTaken === null) return 0;
+  if (a.dateTaken === null) return 1;  // nulls last
+  if (b.dateTaken === null) return -1;
+  return a.dateTaken - b.dateTaken;
+});
 ---
 
 <Layout title={park.name}>

@@ -27,17 +27,33 @@ export async function getPublicImageSize(publicRelativePath) {
 
   // EXIF orientation values 5–8 imply rotated display orientation
   let orientation = 1;
+  let dateTaken = null;
   try {
-    const exif = await exifr.parse(buf, { pick: ["Orientation"], translateValues: false });
+    const exif = await exifr.parse(buf, {
+      pick: ["Orientation", "DateTimeOriginal"],
+      translateValues: false,
+    });
     if (exif?.Orientation) orientation = exif.Orientation;
+    if (exif?.DateTimeOriginal) {
+      // exifr may return a Date object or a string like "2014:08:15 10:30:00"
+      if (exif.DateTimeOriginal instanceof Date) {
+        dateTaken = exif.DateTimeOriginal.getTime();
+      } else if (typeof exif.DateTimeOriginal === "string") {
+        const iso = exif.DateTimeOriginal.replace(
+          /^(\d{4}):(\d{2}):(\d{2})/,
+          "$1-$2-$3"
+        );
+        dateTaken = new Date(iso).getTime();
+      }
+    }
   } catch {
     // ignore missing/invalid EXIF
   }
 
   const shouldSwap = [5, 6, 7, 8].includes(orientation);
   const result = shouldSwap
-    ? { width: base.height, height: base.width }
-    : { width: base.width, height: base.height };
+    ? { width: base.height, height: base.width, dateTaken }
+    : { width: base.width, height: base.height, dateTaken };
 
   cache.set(publicRelativePath, result);
   return result;
