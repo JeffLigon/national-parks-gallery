@@ -1,17 +1,14 @@
 ---
-import fs from "node:fs";
-import path from "node:path";
-
 import Layout from "../../../layouts/Layout.astro";
 import LightboxGallery from "../../../components/LightboxGallery.astro";
 import PhotoSwipeInit from "../../../components/PhotoSwipeInit.jsx";
-import { getPublicImageSize } from "../../../lib/imageMeta.js";
+import galleryData from "../../../data/photos/carlsbad-caverns.json";
 
 const park = {
   name: "Carlsbad Caverns National Park",
   location: "New Mexico",
   yearVisited: "2017 & 2022",
-  hero: "/images/parks/carlsbad-caverns.jpg",
+  hero: galleryData.hero,
   subtitle: "Vast underground chambers and evening bat flights.",
   description: `Add your description of Carlsbad Caverns here.`.trim(),
   howToGetThere: {
@@ -25,34 +22,12 @@ const park = {
 
 const galleryId = "carlsbad-caverns-gallery";
 
-const galleryDir = path.join(
-  process.cwd(),
-  "public",
-  "images",
-  "parks",
-  "carlsbad-caverns"
-);
-
-const photoFiles = fs
-  .readdirSync(galleryDir)
-  .filter((name) => !name.startsWith("."))
-  .filter((name) => /\.(jpe?g|png|webp)$/i.test(name));
-
-const photos = (
-  await Promise.all(
-    photoFiles.map(async (filename) => {
-      const src = `/images/parks/carlsbad-caverns/${filename}`;
-      const { width, height, dateTaken } = await getPublicImageSize(src);
-
-      return { src, width, height, dateTaken, title: filename, alt: filename };
-    })
-  )
-).sort((a, b) => {
-  if (a.dateTaken === null && b.dateTaken === null) return 0;
-  if (a.dateTaken === null) return 1;
-  if (b.dateTaken === null) return -1;
-  return a.dateTaken - b.dateTaken;
-});
+// Photos come from the R2-backed manifest (empty until photos are added).
+const photos = galleryData.photos.map((p) => ({
+  ...p,
+  title: p.filename,
+  alt: p.filename,
+}));
 ---
 
 <Layout title={park.name}>

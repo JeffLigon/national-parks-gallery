@@ -1,17 +1,14 @@
 ---
-import fs from "node:fs";
-import path from "node:path";
-
 import Layout from "../../../layouts/Layout.astro";
 import LightboxGallery from "../../../components/LightboxGallery.astro";
 import PhotoSwipeInit from "../../../components/PhotoSwipeInit.jsx";
-import { getPublicImageSize } from "../../../lib/imageMeta.js";
+import galleryData from "../../../data/photos/hot-springs.json";
 
 const park = {
   name: "Hot Springs National Park",
   location: "Arkansas",
   yearVisited: "2016 & 2020",
-  hero: "/images/parks/hot-springs.jpg",
+  hero: galleryData.hero,
   subtitle: "Historic bathhouses and thermal waters in the Ouachita Mountains.",
   description: ` Honestly this was the least impressive park on my list.  There's only a few trails and it's really just about seeing the natural hot springs. 
    It's something to do if you're in Little Rock, Arkansas but it's hard to justify making a trip just to see this "national park"`.trim(),
@@ -26,34 +23,12 @@ const park = {
 
 const galleryId = "hot-springs-gallery";
 
-const galleryDir = path.join(
-  process.cwd(),
-  "public",
-  "images",
-  "parks",
-  "hot-springs"
-);
-
-const photoFiles = fs
-  .readdirSync(galleryDir)
-  .filter((name) => !name.startsWith("."))
-  .filter((name) => /\.(jpe?g|png|webp)$/i.test(name));
-
-const photos = (
-  await Promise.all(
-    photoFiles.map(async (filename) => {
-      const src = `/images/parks/hot-springs/${filename}`;
-      const { width, height, dateTaken } = await getPublicImageSize(src);
-
-      return { src, width, height, dateTaken, title: filename, alt: filename };
-    })
-  )
-).sort((a, b) => {
-  if (a.dateTaken === null && b.dateTaken === null) return 0;
-  if (a.dateTaken === null) return 1;
-  if (b.dateTaken === null) return -1;
-  return a.dateTaken - b.dateTaken;
-});
+// Photos come from the R2-backed manifest (already sorted by date taken).
+const photos = galleryData.photos.map((p) => ({
+  ...p,
+  title: p.filename,
+  alt: p.filename,
+}));
 ---
 
 <Layout title={park.name}>

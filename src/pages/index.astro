@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { R2_BASE } from "../lib/r2.js";
 ---
 
 <Layout title="Jeff's National Parks Photo Gallery">
@@ -8,7 +9,7 @@ import Layout from "../layouts/Layout.astro";
   >
     <div
       class="hero__image"
-      style={`background-image: url('/images/hero-example.jpg');`}
+      style={`background-image: url('${R2_BASE}/hero-main.jpg');`}
     ></div>
 
     <div class="hero__content">

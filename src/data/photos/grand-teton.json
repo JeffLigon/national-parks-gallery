@@ -1,0 +1,191 @@
+{
+  "park": "grand-teton",
+  "generatedAt": "2026-09-01T01:58:05.979Z",
+  "hero": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/hero.jpg",
+  "photos": [
+    {
+      "filename": "IMG_5493.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5493.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5493.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-23T18:23:42.000Z"
+    },
+    {
+      "filename": "IMG_5496.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5496.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5496.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-23T18:36:29.000Z"
+    },
+    {
+      "filename": "IMG_5503.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5503.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5503.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-23T19:47:36.000Z"
+    },
+    {
+      "filename": "IMG_5504.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5504.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5504.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-23T19:50:04.000Z"
+    },
+    {
+      "filename": "IMG_5552.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5552.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5552.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-24T23:24:46.000Z"
+    },
+    {
+      "filename": "IMG_5553.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5553.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5553.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-24T23:25:20.000Z"
+    },
+    {
+      "filename": "IMG_5554.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5554.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5554.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-24T23:45:16.000Z"
+    },
+    {
+      "filename": "P7240309.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/P7240309.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/P7240309.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-24T23:56:09.000Z"
+    },
+    {
+      "filename": "P7240311.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/P7240311.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/P7240311.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-25T00:13:06.000Z"
+    },
+    {
+      "filename": "P7240313.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/P7240313.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/P7240313.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-25T00:13:47.000Z"
+    },
+    {
+      "filename": "IMG_5559.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5559.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5559.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-25T00:22:54.000Z"
+    },
+    {
+      "filename": "IMG_5560.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5560.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5560.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-25T00:24:52.000Z"
+    },
+    {
+      "filename": "P7240317.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/P7240317.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/P7240317.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-25T00:35:12.000Z"
+    },
+    {
+      "filename": "IMG_5567.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5567.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5567.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2014-07-25T00:51:57.000Z"
+    },
+    {
+      "filename": "P7240324.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/P7240324.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/P7240324.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-25T00:58:39.000Z"
+    },
+    {
+      "filename": "P7240326.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/P7240326.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/P7240326.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-25T00:59:17.000Z"
+    },
+    {
+      "filename": "IMG_5576.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5576.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5576.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-25T01:06:21.000Z"
+    },
+    {
+      "filename": "P7240336.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/P7240336.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/P7240336.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-25T01:12:37.000Z"
+    },
+    {
+      "filename": "IMG_5582.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5582.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5582.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-25T01:19:28.000Z"
+    },
+    {
+      "filename": "IMG_5585.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/IMG_5585.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/IMG_5585.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-25T01:22:36.000Z"
+    },
+    {
+      "filename": "P7240348.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/P7240348.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/P7240348.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2014-07-25T01:40:24.000Z"
+    },
+    {
+      "filename": "P7240369.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/P7240369.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/P7240369.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-25T02:13:29.000Z"
+    },
+    {
+      "filename": "P7240371.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/P7240371.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-teton/thumbs/P7240371.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-25T02:15:04.000Z"
+    }
+  ]
+}

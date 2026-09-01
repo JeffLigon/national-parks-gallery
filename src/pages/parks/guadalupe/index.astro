@@ -1,17 +1,14 @@
 ---
-import fs from "node:fs";
-import path from "node:path";
-
 import Layout from "../../../layouts/Layout.astro";
 import LightboxGallery from "../../../components/LightboxGallery.astro";
 import PhotoSwipeInit from "../../../components/PhotoSwipeInit.jsx";
-import { getPublicImageSize } from "../../../lib/imageMeta.js";
+import galleryData from "../../../data/photos/guadalupe.json";
 
 const park = {
   name: "Guadalupe Mountains National Park",
   location: "Texas",
   yearVisited: "2017 & 2022",
-  hero: "/images/parks/guadalupe.jpg",
+  hero: galleryData.hero,
   subtitle: "Ancient fossil reef rising from the Chihuahuan Desert.",
   description: `I went here on two different trips with the kids.  One was a Boy Scout trip with Brady in 2017 and the second was a spring break backpacking trip with Rachel in 2022.   This is such a unique geography in the middle of West Texas because up at the tops of the cliffs you're hiking through an Alpine forest because it's so high above the desert, such a cool place!`.trim(),
   howToGetThere: {
@@ -25,34 +22,12 @@ const park = {
 
 const galleryId = "guadalupe-gallery";
 
-const galleryDir = path.join(
-  process.cwd(),
-  "public",
-  "images",
-  "parks",
-  "guadalupe"
-);
-
-const photoFiles = fs
-  .readdirSync(galleryDir)
-  .filter((name) => !name.startsWith("."))
-  .filter((name) => /\.(jpe?g|png|webp)$/i.test(name));
-
-const photos = (
-  await Promise.all(
-    photoFiles.map(async (filename) => {
-      const src = `/images/parks/guadalupe/${filename}`;
-      const { width, height, dateTaken } = await getPublicImageSize(src);
-
-      return { src, width, height, dateTaken, title: filename, alt: filename };
-    })
-  )
-).sort((a, b) => {
-  if (a.dateTaken === null && b.dateTaken === null) return 0;
-  if (a.dateTaken === null) return 1;
-  if (b.dateTaken === null) return -1;
-  return a.dateTaken - b.dateTaken;
-});
+// Photos come from the R2-backed manifest (already sorted by date taken).
+const photos = galleryData.photos.map((p) => ({
+  ...p,
+  title: p.filename,
+  alt: p.filename,
+}));
 ---
 
 <Layout title={park.name}>

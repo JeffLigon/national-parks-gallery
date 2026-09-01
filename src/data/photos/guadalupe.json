@@ -1,0 +1,439 @@
+{
+  "park": "guadalupe",
+  "generatedAt": "2026-09-01T01:57:01.491Z",
+  "hero": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/hero.jpg",
+  "photos": [
+    {
+      "filename": "IMG_4279.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4279.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4279.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-07T22:30:11.000Z"
+    },
+    {
+      "filename": "IMG_4282.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4282.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4282.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-07T22:38:10.000Z"
+    },
+    {
+      "filename": "IMG_4288.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4288.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4288.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-07T23:19:49.000Z"
+    },
+    {
+      "filename": "IMG_4291.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4291.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4291.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-07T23:20:14.000Z"
+    },
+    {
+      "filename": "IMG_4298.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4298.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4298.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-07T23:42:34.000Z"
+    },
+    {
+      "filename": "IMG_4300.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4300.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4300.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-07T23:43:05.000Z"
+    },
+    {
+      "filename": "IMG_4306.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4306.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4306.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-07T23:44:51.000Z"
+    },
+    {
+      "filename": "IMG_4318.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4318.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4318.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-08T00:00:08.000Z"
+    },
+    {
+      "filename": "IMG_4321.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4321.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4321.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-08T00:01:20.000Z"
+    },
+    {
+      "filename": "IMG_4330.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4330.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4330.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-08T00:53:25.000Z"
+    },
+    {
+      "filename": "IMG_4355.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4355.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4355.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-08T01:39:20.000Z"
+    },
+    {
+      "filename": "IMG_4360.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4360.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4360.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-08T01:43:55.000Z"
+    },
+    {
+      "filename": "IMG_4366.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4366.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4366.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-08T01:49:46.000Z"
+    },
+    {
+      "filename": "IMG_4373.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4373.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4373.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2017-10-08T01:54:01.000Z"
+    },
+    {
+      "filename": "PA080034.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/PA080034.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/PA080034.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-10-08T16:27:23.000Z"
+    },
+    {
+      "filename": "PA080066.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/PA080066.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/PA080066.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-10-08T16:48:03.000Z"
+    },
+    {
+      "filename": "PA080074.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/PA080074.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/PA080074.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-10-08T16:52:38.000Z"
+    },
+    {
+      "filename": "PA080159.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/PA080159.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/PA080159.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-10-08T19:01:29.000Z"
+    },
+    {
+      "filename": "PA080173.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/PA080173.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/PA080173.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-10-08T19:16:34.000Z"
+    },
+    {
+      "filename": "Large 8274.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/Large 8274.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/Large 8274.jpg",
+      "width": 2560,
+      "height": 3840,
+      "dateTaken": "2017-10-08T19:38:03.000Z"
+    },
+    {
+      "filename": "IMG_4436.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_4436.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_4436.jpg",
+      "width": 2970,
+      "height": 2970,
+      "dateTaken": "2017-10-08T19:40:20.000Z"
+    },
+    {
+      "filename": "Large Troop 8333.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/Large Troop 8333.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/Large Troop 8333.jpg",
+      "width": 3840,
+      "height": 2560,
+      "dateTaken": "2017-10-08T20:49:15.000Z"
+    },
+    {
+      "filename": "IMG_7363.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7363.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7363.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-07T18:51:07.000Z"
+    },
+    {
+      "filename": "IMG_7375.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7375.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7375.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-07T18:54:54.000Z"
+    },
+    {
+      "filename": "IMG_7381.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7381.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7381.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-07T18:59:12.000Z"
+    },
+    {
+      "filename": "IMG_7383.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7383.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7383.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-07T19:06:41.000Z"
+    },
+    {
+      "filename": "IMG_7390.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7390.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7390.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-07T21:02:30.000Z"
+    },
+    {
+      "filename": "IMG_7407.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7407.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7407.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-07T21:50:42.000Z"
+    },
+    {
+      "filename": "IMG_7408.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7408.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7408.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-07T21:50:56.000Z"
+    },
+    {
+      "filename": "IMG_7412.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7412.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7412.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-07T21:52:06.000Z"
+    },
+    {
+      "filename": "IMG_7398.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7398.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7398.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-07T22:08:40.000Z"
+    },
+    {
+      "filename": "IMG_7404.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7404.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7404.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-07T22:18:58.000Z"
+    },
+    {
+      "filename": "IMG_7422.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7422.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7422.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-07T23:52:05.000Z"
+    },
+    {
+      "filename": "IMG_7443.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7443.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7443.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-08T01:13:20.000Z"
+    },
+    {
+      "filename": "IMG_7445.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7445.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7445.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-08T01:14:24.000Z"
+    },
+    {
+      "filename": "IMG_7448.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7448.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7448.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-08T01:57:29.000Z"
+    },
+    {
+      "filename": "IMG_7450.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7450.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7450.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-08T02:57:23.000Z"
+    },
+    {
+      "filename": "IMG_7602.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7602.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7602.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-09T21:49:50.000Z"
+    },
+    {
+      "filename": "IMG_7612.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7612.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7612.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-09T22:01:25.000Z"
+    },
+    {
+      "filename": "IMG_7633.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7633.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7633.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-09T22:31:00.000Z"
+    },
+    {
+      "filename": "IMG_7623.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7623.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7623.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-09T22:50:51.000Z"
+    },
+    {
+      "filename": "IMG_7646.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7646.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7646.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T00:14:47.000Z"
+    },
+    {
+      "filename": "IMG_7653.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7653.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7653.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T01:01:10.000Z"
+    },
+    {
+      "filename": "IMG_7659.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7659.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7659.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T01:17:34.000Z"
+    },
+    {
+      "filename": "IMG_7667.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7667.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7667.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T01:19:23.000Z"
+    },
+    {
+      "filename": "IMG_7672.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7672.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7672.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T01:30:33.000Z"
+    },
+    {
+      "filename": "IMG_7673.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7673.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7673.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T01:30:41.000Z"
+    },
+    {
+      "filename": "IMG_7682.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7682.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7682.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T01:41:14.000Z"
+    },
+    {
+      "filename": "IMG_7686.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7686.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7686.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T02:43:02.000Z"
+    },
+    {
+      "filename": "IMG_7689.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7689.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7689.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T02:51:17.000Z"
+    },
+    {
+      "filename": "IMG_7703.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7703.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7703.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T19:07:27.000Z"
+    },
+    {
+      "filename": "IMG_7709.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7709.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7709.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T19:11:14.000Z"
+    },
+    {
+      "filename": "IMG_7715.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7715.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7715.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T19:12:08.000Z"
+    },
+    {
+      "filename": "IMG_7723.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/IMG_7723.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/guadalupe/thumbs/IMG_7723.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2022-03-10T19:55:03.000Z"
+    }
+  ]
+}

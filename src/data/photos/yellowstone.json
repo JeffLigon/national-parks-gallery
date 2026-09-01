@@ -1,0 +1,367 @@
+{
+  "park": "yellowstone",
+  "generatedAt": "2026-09-01T01:53:37.626Z",
+  "hero": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/hero.jpg",
+  "photos": [
+    {
+      "filename": "P7220042.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7220042.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7220042.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-23T01:36:35.000Z"
+    },
+    {
+      "filename": "P7230099.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7230099.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7230099.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-23T20:01:00.000Z"
+    },
+    {
+      "filename": "P7230103.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7230103.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7230103.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-23T20:05:46.000Z"
+    },
+    {
+      "filename": "P7230104.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7230104.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7230104.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-23T20:06:15.000Z"
+    },
+    {
+      "filename": "P7230105.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7230105.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7230105.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-23T20:06:25.000Z"
+    },
+    {
+      "filename": "IMG_5508.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5508.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5508.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-23T20:28:21.000Z"
+    },
+    {
+      "filename": "IMG_5509.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5509.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5509.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2014-07-23T20:44:05.000Z"
+    },
+    {
+      "filename": "IMG_5511.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5511.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5511.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2014-07-23T21:00:06.000Z"
+    },
+    {
+      "filename": "P7230123.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7230123.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7230123.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-23T21:15:03.000Z"
+    },
+    {
+      "filename": "P7230135.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7230135.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7230135.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-23T21:37:21.000Z"
+    },
+    {
+      "filename": "P7230138.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7230138.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7230138.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-23T21:38:37.000Z"
+    },
+    {
+      "filename": "IMG_5514.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5514.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5514.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-23T21:49:45.000Z"
+    },
+    {
+      "filename": "P7230141.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7230141.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7230141.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-23T21:51:33.000Z"
+    },
+    {
+      "filename": "IMG_5515.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5515.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5515.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-23T21:53:22.000Z"
+    },
+    {
+      "filename": "IMG_5516.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5516.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5516.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-23T21:57:52.000Z"
+    },
+    {
+      "filename": "P7230167.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7230167.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7230167.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-23T23:51:46.000Z"
+    },
+    {
+      "filename": "IMG_5517.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5517.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5517.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2014-07-24T00:04:02.000Z"
+    },
+    {
+      "filename": "P7230184.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7230184.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7230184.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-24T00:55:24.000Z"
+    },
+    {
+      "filename": "IMG_5531.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5531.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5531.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-24T16:44:09.000Z"
+    },
+    {
+      "filename": "P7240229.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7240229.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7240229.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-24T17:50:22.000Z"
+    },
+    {
+      "filename": "IMG_5540.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5540.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5540.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-24T17:55:30.000Z"
+    },
+    {
+      "filename": "IMG_5546.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5546.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5546.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-24T18:01:24.000Z"
+    },
+    {
+      "filename": "IMG_5549.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5549.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5549.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-24T18:08:42.000Z"
+    },
+    {
+      "filename": "P7240281.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7240281.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7240281.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-24T18:55:52.000Z"
+    },
+    {
+      "filename": "IMG_5599.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5599.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5599.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-25T21:43:47.000Z"
+    },
+    {
+      "filename": "IMG_5600.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5600.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5600.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-25T21:45:20.000Z"
+    },
+    {
+      "filename": "IMG_5602.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5602.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5602.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-25T22:51:04.000Z"
+    },
+    {
+      "filename": "IMG_5610.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5610.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5610.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-25T23:22:21.000Z"
+    },
+    {
+      "filename": "IMG_5611.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5611.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5611.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-25T23:28:06.000Z"
+    },
+    {
+      "filename": "P7250448.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7250448.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7250448.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-25T23:59:22.000Z"
+    },
+    {
+      "filename": "IMG_5613.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5613.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5613.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-26T00:04:07.000Z"
+    },
+    {
+      "filename": "P7250452.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7250452.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7250452.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-26T00:05:56.000Z"
+    },
+    {
+      "filename": "IMG_5617.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5617.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5617.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-26T00:20:05.000Z"
+    },
+    {
+      "filename": "IMG_5620.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5620.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5620.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-26T00:29:21.000Z"
+    },
+    {
+      "filename": "IMG_5628.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5628.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5628.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2014-07-26T01:49:28.000Z"
+    },
+    {
+      "filename": "IMG_5630.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5630.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5630.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-26T01:51:24.000Z"
+    },
+    {
+      "filename": "IMG_5636.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5636.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5636.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2014-07-26T01:55:45.000Z"
+    },
+    {
+      "filename": "IMG_5645.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5645.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5645.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2014-07-26T02:17:40.000Z"
+    },
+    {
+      "filename": "IMG_5648.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5648.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5648.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2014-07-26T02:21:11.000Z"
+    },
+    {
+      "filename": "IMG_5657.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5657.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5657.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-26T02:36:30.000Z"
+    },
+    {
+      "filename": "P7250498.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7250498.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7250498.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-26T02:43:43.000Z"
+    },
+    {
+      "filename": "IMG_5673.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5673.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5673.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2014-07-26T02:45:05.000Z"
+    },
+    {
+      "filename": "IMG_5676.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5676.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5676.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-26T03:21:12.000Z"
+    },
+    {
+      "filename": "P7250528.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/P7250528.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/P7250528.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2014-07-26T03:22:32.000Z"
+    },
+    {
+      "filename": "IMG_5677.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/IMG_5677.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yellowstone/thumbs/IMG_5677.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2014-07-26T03:59:30.000Z"
+    }
+  ]
+}

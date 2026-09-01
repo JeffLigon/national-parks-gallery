@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# park photos live in Cloudflare R2 + local staging (../national-parks-gallery-photos),
+# never in the repo. Manifests in src/data/photos/ are the committed source of truth.
+public/images/parks/

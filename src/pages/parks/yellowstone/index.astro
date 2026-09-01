@@ -1,17 +1,14 @@
 ---
-import fs from "node:fs";
-import path from "node:path";
-
 import Layout from "../../../layouts/Layout.astro";
 import LightboxGallery from "../../../components/LightboxGallery.astro";
 import PhotoSwipeInit from "../../../components/PhotoSwipeInit.jsx";
-import { getPublicImageSize } from "../../../lib/imageMeta.js";
+import galleryData from "../../../data/photos/yellowstone.json";
 
 const park = {
   name: "Yellowstone National Park",
   location: "Wyoming",
   yearVisited: 2014,
-  hero: "/images/parks/yellowstone.jpg",
+  hero: galleryData.hero,
   subtitle: "Geysers, hot springs, and wildlife on a volcanic plateau.",
   description: `Our trip to Yellowstone felt like our first "real" National Park trip.  We stayed at Jackson Hole,
   Wyoming for a week and we're able to have to spend many days visiting Yellowstone and Grand Tetons.
@@ -28,41 +25,12 @@ const park = {
 
 const galleryId = "yellowstone-gallery";
 
-const galleryDir = path.join(
-  process.cwd(),
-  "public",
-  "images",
-  "parks",
-  "yellowstone"
-);
-
-const photoFiles = fs
-  .readdirSync(galleryDir)
-  .filter((name) => !name.startsWith("."))
-  .filter((name) => /\.(jpe?g|png|webp)$/i.test(name));
-
-const photos = (
-  await Promise.all(
-    photoFiles.map(async (filename) => {
-      const src = `/images/parks/yellowstone/${filename}`;
-      const { width, height, dateTaken } = await getPublicImageSize(src);
-
-      return {
-        src,
-        width,
-        height,
-        dateTaken,
-        title: filename,
-        alt: filename,
-      };
-    })
-  )
-).sort((a, b) => {
-  if (a.dateTaken === null && b.dateTaken === null) return 0;
-  if (a.dateTaken === null) return 1;  // nulls last
-  if (b.dateTaken === null) return -1;
-  return a.dateTaken - b.dateTaken;
-});
+// Photos come from the R2-backed manifest (already sorted by date taken).
+const photos = galleryData.photos.map((p) => ({
+  ...p,
+  title: p.filename,
+  alt: p.filename,
+}));
 ---
 
 <Layout title={park.name}>

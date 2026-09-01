@@ -6,12 +6,12 @@ const { photos, galleryId = "gallery" } = Astro.props;
   {photos.map((p) => (
     <a
       class="masonry__item"
-      href={p.src}
+      href={p.display ?? p.src}
       data-pswp-width={p.width}
       data-pswp-height={p.height}
       aria-label={p.title ? `Open ${p.title}` : "Open photo"}
     >
-      <img src={p.src} alt={p.alt ?? ""} loading="lazy" />
+      <img src={p.thumb ?? p.src} alt={p.alt ?? ""} loading="lazy" />
       {p.title && (
         <div class="masonry__caption">
           <span>{p.title}</span>

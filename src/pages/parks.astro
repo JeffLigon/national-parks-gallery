@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { R2_BASE } from "../lib/r2.js";
 
 const parks = [
   {
@@ -7,7 +8,6 @@ const parks = [
     name: "Grand Canyon National Park",
     location: "Arizona",
     yearVisited: 2013,
-    hero: "/images/parks/grandcanyon.jpg",
     blurb: "Layered rock and canyon light that changes by the minute.",
   },
   {
@@ -15,7 +15,6 @@ const parks = [
     name: "Yellowstone National Park",
     location: "Wyoming",
     yearVisited: 2014,
-    hero: "/images/parks/yellowstone.jpg",
     blurb: "Geysers, hot springs, and wildlife on a volcanic plateau.",
   },
   {
@@ -23,7 +22,6 @@ const parks = [
     name: "Grand Teton National Park",
     location: "Wyoming",
     yearVisited: 2014,
-    hero: "/images/parks/grand-teton.jpg",
     blurb: "Jagged peaks rising sharply from the valley floor.",
   },
   {
@@ -31,7 +29,6 @@ const parks = [
     name: "Hot Springs National Park",
     location: "Arkansas",
     yearVisited: "2016 & 2020",
-    hero: "/images/parks/hot-springs.jpg",
     blurb: "Historic bathhouses and thermal waters in the Ouachita Mountains.",
   },
   {
@@ -39,7 +36,6 @@ const parks = [
     name: "Rocky Mountain National Park",
     location: "Colorado",
     yearVisited: 2016,
-    hero: "/images/parks/rocky-mountain.jpg",
     blurb: "Alpine meadows, tundra, and peaks above 14,000 feet.",
   },
   {
@@ -47,7 +43,6 @@ const parks = [
     name: "Yosemite National Park",
     location: "California",
     yearVisited: 2017,
-    hero: "/images/parks/yosemite.jpg",
     blurb: "Granite cliffs, waterfalls, and quiet valleys in the Sierra Nevada.",
   },
   {
@@ -55,7 +50,6 @@ const parks = [
     name: "Guadalupe Mountains National Park",
     location: "Texas",
     yearVisited: "2017 & 2022",
-    hero: "/images/parks/guadalupe.jpg",
     blurb: "Ancient fossil reef rising from the Chihuahuan Desert.",
   },
   {
@@ -63,7 +57,6 @@ const parks = [
     name: "Carlsbad Caverns National Park",
     location: "New Mexico",
     yearVisited: "2017 & 2022",
-    hero: "/images/parks/carlsbad-caverns.jpg",
     blurb: "Vast underground chambers and evening bat flights.",
   },
   {
@@ -71,7 +64,6 @@ const parks = [
     name: "Crater Lake National Park",
     location: "Oregon",
     yearVisited: 2018,
-    hero: "/images/parks/crater-lake.jpg",
     blurb: "The deepest lake in the US, filling an ancient volcanic caldera.",
   },
   {
@@ -79,7 +71,6 @@ const parks = [
     name: "Great Smoky Mountains National Park",
     location: "Tennessee",
     yearVisited: 2019,
-    hero: "/images/parks/smoky-mountains.jpg",
     blurb: "Ancient mountains wrapped in mist and wildflowers.",
   },
   {
@@ -87,7 +78,6 @@ const parks = [
     name: "Olympic National Park",
     location: "Washington",
     yearVisited: 2021,
-    hero: "/images/parks/olympic.jpg",
     blurb: "Rainforests, rugged coastline, and alpine peaks.",
   },
   {
@@ -95,7 +85,6 @@ const parks = [
     name: "Virgin Islands National Park",
     location: "U.S. Virgin Islands",
     yearVisited: 2021,
-    hero: "/images/parks/virgin-islands.jpg",
     blurb: "Turquoise bays, coral reefs, and tropical hillsides.",
   },
   {
@@ -103,7 +92,6 @@ const parks = [
     name: "Mount Rainier National Park",
     location: "Washington",
     yearVisited: 2022,
-    hero: "/images/parks/mount-rainier.jpg",
     blurb: "A glaciated volcano rising above the Pacific Northwest.",
   },
   {
@@ -111,7 +99,6 @@ const parks = [
     name: "North Cascades National Park",
     location: "Washington",
     yearVisited: 2023,
-    hero: "/images/parks/north-cascades.jpg",
     blurb: "Remote peaks, glaciers, and wild river valleys.",
   },
   {
@@ -119,7 +106,6 @@ const parks = [
     name: "Glacier Bay National Park",
     location: "Alaska",
     yearVisited: 2025,
-    hero: "/images/parks/glacier-bay.jpg",
     blurb: "Tidewater glaciers and wilderness at the edge of the Pacific.",
   },
 ];
@@ -138,7 +124,7 @@ const parks = [
           <a href={`/parks/${park.slug}/`} class="park-card">
             <div class="park-card__image-wrapper">
               <img
-                src={park.hero}
+                src={`${R2_BASE}/parks/${park.slug}/hero.jpg`}
                 alt={park.name}
                 class="park-card__image"
               />

@@ -1,0 +1,191 @@
+{
+  "park": "rocky-mountain",
+  "generatedAt": "2026-09-01T01:59:15.247Z",
+  "hero": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/hero.jpg",
+  "photos": [
+    {
+      "filename": "P9090004.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090004.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090004.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T21:01:02.000Z"
+    },
+    {
+      "filename": "P9090009.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090009.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090009.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T21:13:00.000Z"
+    },
+    {
+      "filename": "P9090012.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090012.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090012.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T21:19:10.000Z"
+    },
+    {
+      "filename": "IMG_0818.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/IMG_0818.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/IMG_0818.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2016-09-09T21:33:34.000Z"
+    },
+    {
+      "filename": "P9090040.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090040.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090040.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T21:54:24.000Z"
+    },
+    {
+      "filename": "P9090041.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090041.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090041.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T21:55:06.000Z"
+    },
+    {
+      "filename": "P9090042.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090042.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090042.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T21:55:25.000Z"
+    },
+    {
+      "filename": "P9090049.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090049.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090049.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T22:07:44.000Z"
+    },
+    {
+      "filename": "P9090052.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090052.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090052.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T22:13:05.000Z"
+    },
+    {
+      "filename": "P9090059.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090059.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090059.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T22:19:21.000Z"
+    },
+    {
+      "filename": "P9090065.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090065.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090065.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T22:28:46.000Z"
+    },
+    {
+      "filename": "P9090072.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090072.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090072.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T22:37:01.000Z"
+    },
+    {
+      "filename": "P9090078.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090078.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090078.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T22:41:04.000Z"
+    },
+    {
+      "filename": "P9090079.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090079.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090079.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T22:44:54.000Z"
+    },
+    {
+      "filename": "P9090081.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090081.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090081.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T22:54:11.000Z"
+    },
+    {
+      "filename": "P9090084.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090084.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090084.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T22:56:19.000Z"
+    },
+    {
+      "filename": "P9090088.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090088.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090088.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-09T22:56:52.000Z"
+    },
+    {
+      "filename": "IMG_0820.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/IMG_0820.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/IMG_0820.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2016-09-09T23:21:13.000Z"
+    },
+    {
+      "filename": "P9090120.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090120.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090120.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-10T01:13:53.000Z"
+    },
+    {
+      "filename": "P9090121.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090121.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090121.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-10T01:14:16.000Z"
+    },
+    {
+      "filename": "P9090128.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090128.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090128.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-10T01:45:15.000Z"
+    },
+    {
+      "filename": "IMG_0826.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/IMG_0826.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/IMG_0826.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2016-09-10T02:17:05.000Z"
+    },
+    {
+      "filename": "P9090136.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/P9090136.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/rocky-mountain/thumbs/P9090136.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-09-10T02:55:20.000Z"
+    }
+  ]
+}

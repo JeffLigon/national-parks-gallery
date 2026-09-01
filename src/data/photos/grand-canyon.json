@@ -1,0 +1,255 @@
+{
+  "park": "grand-canyon",
+  "generatedAt": "2026-09-01T01:51:21.424Z",
+  "hero": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/hero.jpg",
+  "photos": [
+    {
+      "filename": "P8012175.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012175.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012175.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T00:10:56.000Z"
+    },
+    {
+      "filename": "P8012179.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012179.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012179.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T00:25:28.000Z"
+    },
+    {
+      "filename": "P8012182.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012182.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012182.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T00:27:34.000Z"
+    },
+    {
+      "filename": "P8012183.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012183.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012183.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T00:27:42.000Z"
+    },
+    {
+      "filename": "P8012184.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012184.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012184.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T00:27:59.000Z"
+    },
+    {
+      "filename": "P8012186.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012186.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012186.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T00:28:37.000Z"
+    },
+    {
+      "filename": "P8012187.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012187.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012187.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T00:28:52.000Z"
+    },
+    {
+      "filename": "P8012196.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012196.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012196.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T00:34:50.000Z"
+    },
+    {
+      "filename": "P8012198.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012198.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012198.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T00:35:36.000Z"
+    },
+    {
+      "filename": "P8012200.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012200.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012200.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T00:36:59.000Z"
+    },
+    {
+      "filename": "P8012203.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012203.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012203.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T00:38:06.000Z"
+    },
+    {
+      "filename": "P8012204.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012204.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012204.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T00:38:22.000Z"
+    },
+    {
+      "filename": "P8012213.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012213.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012213.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T01:07:06.000Z"
+    },
+    {
+      "filename": "P8012215.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012215.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012215.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T01:08:08.000Z"
+    },
+    {
+      "filename": "IMG_2646.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/IMG_2646.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/IMG_2646.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2013-08-02T01:21:03.000Z"
+    },
+    {
+      "filename": "P8012221.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012221.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012221.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T01:30:22.000Z"
+    },
+    {
+      "filename": "IMG_2649.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/IMG_2649.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/IMG_2649.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2013-08-02T01:31:02.000Z"
+    },
+    {
+      "filename": "P8012223.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012223.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012223.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T01:31:06.000Z"
+    },
+    {
+      "filename": "P8012224.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012224.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012224.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T01:31:36.000Z"
+    },
+    {
+      "filename": "IMG_2642.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/IMG_2642.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/IMG_2642.jpg",
+      "width": 3264,
+      "height": 2448,
+      "dateTaken": "2013-08-02T01:31:48.000Z"
+    },
+    {
+      "filename": "P8012230.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012230.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012230.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T01:36:00.000Z"
+    },
+    {
+      "filename": "P8012232.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012232.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012232.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T01:37:14.000Z"
+    },
+    {
+      "filename": "P8012242.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012242.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012242.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T01:43:02.000Z"
+    },
+    {
+      "filename": "P8012260.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012260.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012260.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T02:19:00.000Z"
+    },
+    {
+      "filename": "P8012264.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012264.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012264.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T02:26:38.000Z"
+    },
+    {
+      "filename": "P8012266.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012266.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012266.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T02:27:26.000Z"
+    },
+    {
+      "filename": "P8012267.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012267.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012267.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T02:28:06.000Z"
+    },
+    {
+      "filename": "P8012270.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012270.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012270.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T02:30:10.000Z"
+    },
+    {
+      "filename": "P8012276.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012276.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012276.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T02:33:05.000Z"
+    },
+    {
+      "filename": "P8012278.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012278.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012278.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T02:34:08.000Z"
+    },
+    {
+      "filename": "P8012282.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/P8012282.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/grand-canyon/thumbs/P8012282.jpg",
+      "width": 3648,
+      "height": 2736,
+      "dateTaken": "2013-08-02T02:36:54.000Z"
+    }
+  ]
+}

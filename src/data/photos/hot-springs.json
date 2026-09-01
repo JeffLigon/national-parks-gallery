@@ -1,0 +1,159 @@
+{
+  "park": "hot-springs",
+  "generatedAt": "2026-08-31T20:39:41.351Z",
+  "hero": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/hero.jpg",
+  "photos": [
+    {
+      "filename": "P2130141.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/P2130141.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/P2130141.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-02-13T21:57:35.000Z"
+    },
+    {
+      "filename": "P2130148.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/P2130148.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/P2130148.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2016-02-13T22:10:06.000Z"
+    },
+    {
+      "filename": "P2130151.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/P2130151.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/P2130151.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-02-13T22:10:27.000Z"
+    },
+    {
+      "filename": "P2130152.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/P2130152.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/P2130152.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-02-13T22:10:33.000Z"
+    },
+    {
+      "filename": "IMG_4289.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_4289.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_4289.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-02-13T22:46:52.000Z"
+    },
+    {
+      "filename": "IMG_4298.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_4298.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_4298.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-02-13T22:49:12.000Z"
+    },
+    {
+      "filename": "IMG_4301.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_4301.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_4301.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-02-13T23:04:32.000Z"
+    },
+    {
+      "filename": "IMG_4302.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_4302.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_4302.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-02-13T23:11:14.000Z"
+    },
+    {
+      "filename": "IMG_4307.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_4307.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_4307.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2016-02-13T23:14:08.000Z"
+    },
+    {
+      "filename": "IMG_4311.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_4311.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_4311.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-02-13T23:24:09.000Z"
+    },
+    {
+      "filename": "IMG_4312.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_4312.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_4312.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-02-13T23:24:34.000Z"
+    },
+    {
+      "filename": "P2130187.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/P2130187.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/P2130187.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2016-02-14T01:34:27.000Z"
+    },
+    {
+      "filename": "IMG_1196.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_1196.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_1196.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2020-06-17T21:46:52.000Z"
+    },
+    {
+      "filename": "IMG_1197.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_1197.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_1197.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2020-06-17T21:47:10.000Z"
+    },
+    {
+      "filename": "IMG_1204.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_1204.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_1204.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2020-06-17T22:04:36.000Z"
+    },
+    {
+      "filename": "IMG_1206.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_1206.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_1206.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2020-06-17T22:05:24.000Z"
+    },
+    {
+      "filename": "IMG_1209.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_1209.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_1209.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2020-06-17T22:06:46.000Z"
+    },
+    {
+      "filename": "IMG_1210.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_1210.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_1210.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2020-06-17T22:06:50.000Z"
+    },
+    {
+      "filename": "IMG_1212.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/IMG_1212.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/hot-springs/thumbs/IMG_1212.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2020-06-17T22:07:38.000Z"
+    }
+  ]
+}

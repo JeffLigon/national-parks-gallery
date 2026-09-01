@@ -1,0 +1,215 @@
+{
+  "park": "yosemite",
+  "generatedAt": "2026-09-01T01:50:06.476Z",
+  "hero": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/hero.jpg",
+  "photos": [
+    {
+      "filename": "IMG_8195.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_8195.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_8195.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-19T18:35:50.000Z"
+    },
+    {
+      "filename": "IMG_8210.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_8210.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_8210.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-19T19:04:31.000Z"
+    },
+    {
+      "filename": "P6190005.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/P6190005.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/P6190005.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-19T20:02:17.000Z"
+    },
+    {
+      "filename": "IMG_8272.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_8272.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_8272.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-19T21:15:11.000Z"
+    },
+    {
+      "filename": "P6190035.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/P6190035.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/P6190035.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-19T21:30:05.000Z"
+    },
+    {
+      "filename": "IMG_8278.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_8278.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_8278.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2017-06-19T21:30:21.000Z"
+    },
+    {
+      "filename": "P6190038.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/P6190038.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/P6190038.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-19T21:32:22.000Z"
+    },
+    {
+      "filename": "IMG_8283.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_8283.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_8283.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-19T21:59:31.000Z"
+    },
+    {
+      "filename": "P6190088.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/P6190088.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/P6190088.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-19T22:25:46.000Z"
+    },
+    {
+      "filename": "DSC00134.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/DSC00134.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/DSC00134.jpg",
+      "width": 3840,
+      "height": 2565,
+      "dateTaken": "2017-06-19T23:04:51.000Z"
+    },
+    {
+      "filename": "IMG_8335.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_8335.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_8335.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-19T23:45:01.000Z"
+    },
+    {
+      "filename": "IMG_3279.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_3279.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_3279.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2017-06-19T23:49:18.000Z"
+    },
+    {
+      "filename": "IMG_8360.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_8360.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_8360.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-20T00:15:25.000Z"
+    },
+    {
+      "filename": "P6190146.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/P6190146.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/P6190146.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-20T00:36:00.000Z"
+    },
+    {
+      "filename": "IMG_3281.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_3281.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_3281.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-20T00:38:07.000Z"
+    },
+    {
+      "filename": "P6190159.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/P6190159.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/P6190159.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-20T00:42:37.000Z"
+    },
+    {
+      "filename": "P6190169.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/P6190169.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/P6190169.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-20T01:04:17.000Z"
+    },
+    {
+      "filename": "P6190170.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/P6190170.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/P6190170.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-20T01:10:16.000Z"
+    },
+    {
+      "filename": "ATMY7236.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/ATMY7236.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/ATMY7236.jpg",
+      "width": 1080,
+      "height": 1616,
+      "dateTaken": "2017-06-20T01:27:02.000Z"
+    },
+    {
+      "filename": "P6200215.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/P6200215.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/P6200215.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-20T21:05:49.000Z"
+    },
+    {
+      "filename": "IMG_8492.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_8492.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_8492.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-21T00:02:26.000Z"
+    },
+    {
+      "filename": "IMG_3283.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_3283.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_3283.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2017-06-21T00:31:09.000Z"
+    },
+    {
+      "filename": "IMG_3292.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_3292.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_3292.jpg",
+      "width": 2448,
+      "height": 3264,
+      "dateTaken": "2017-06-21T00:48:57.000Z"
+    },
+    {
+      "filename": "IMG_8539.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/IMG_8539.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/IMG_8539.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2017-06-21T00:51:17.000Z"
+    },
+    {
+      "filename": "P6200256.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/P6200256.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/P6200256.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-21T00:57:04.000Z"
+    },
+    {
+      "filename": "P6200281.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/P6200281.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/yosemite/thumbs/P6200281.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2017-06-21T01:15:58.000Z"
+    }
+  ]
+}
