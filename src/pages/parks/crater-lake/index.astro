@@ -10,19 +10,19 @@ const park = {
   yearVisited: 2018,
   hero: galleryData.hero,
   subtitle: "The deepest lake in the US, filling an ancient volcanic caldera.",
-  description: `Add your description of Crater Lake here.`.trim(),
+  description: `Candace and I visited here in 2018.   We got to the park on the first day and everything was beautiful, the pictures don't do it justice how beautiful that blue water is!! But we only had about an hour look at the lake from the rim.   Unfortunately that night, wild fire smoke moved in and obscured the entire park the next day which was our full day there to spend hiking.  We had just a few hours in the morning of the third day to do some more and we were able to hike down to the lake level on a clear day which was nice.`.trim(),
   howToGetThere: {
     airport: "Portland (PDX)",
     notes: "Rent a car — it's about a 4.5 hour drive south on I-5 and OR-62.",
   },
   placesToStay: [
-    { label: "Add your accommodation here", url: "#" },
+    { label: "AirBNB near Crater Lake, OR", url: "https://www.airbnb.com/s/Crater-Lake-OR/" },
   ],
 };
 
 const galleryId = "crater-lake-gallery";
 
-// Photos come from the R2-backed manifest (empty until photos are added).
+// Photos come from the R2-backed manifest (sorted by date taken).
 const photos = galleryData.photos.map((p) => ({
   ...p,
   title: p.filename,

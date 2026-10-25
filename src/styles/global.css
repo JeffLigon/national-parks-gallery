@@ -423,6 +423,21 @@ body {
 }
 
 /* Responsive */
+/* Match the viewer toolbar icon buttons. */
+.pswp .pswp__button--fullscreen {
+  color: #fff;
+  opacity: 1;
+}
+
+.pswp__button--fullscreen .pswp__icn {
+  color: #fff;
+}
+
+.pswp__button--fullscreen:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: -4px;
+}
+
 @media (max-width: 900px) {
   .masonry {
     grid-template-columns: repeat(2, 1fr);

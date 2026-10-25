@@ -1,6 +1,351 @@
 {
   "park": "crater-lake",
-  "generatedAt": "2026-09-01T23:52:08.333Z",
-  "hero": null,
-  "photos": []
+  "generatedAt": "2026-10-24T02:21:58.648Z",
+  "hero": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/hero.jpg",
+  "photos": [
+    {
+      "filename": "IMG_3790.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3790.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3790.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T00:20:03.000Z"
+    },
+    {
+      "filename": "IMG_3798.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3798.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3798.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T00:22:23.000Z"
+    },
+    {
+      "filename": "IMG_3802.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3802.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3802.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T00:26:46.000Z"
+    },
+    {
+      "filename": "IMG_3804.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3804.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3804.jpg",
+      "width": 3088,
+      "height": 2320,
+      "dateTaken": "2018-09-06T00:28:48.000Z"
+    },
+    {
+      "filename": "IMG_3807.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3807.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3807.jpg",
+      "width": 3088,
+      "height": 2320,
+      "dateTaken": "2018-09-06T00:30:44.000Z"
+    },
+    {
+      "filename": "IMG_3809.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3809.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3809.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T00:32:26.000Z"
+    },
+    {
+      "filename": "IMG_3812.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3812.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3812.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T00:47:19.000Z"
+    },
+    {
+      "filename": "IMG_3814.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3814.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3814.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T00:47:52.000Z"
+    },
+    {
+      "filename": "IMG_3817.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3817.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3817.jpg",
+      "width": 3088,
+      "height": 2320,
+      "dateTaken": "2018-09-06T00:49:38.000Z"
+    },
+    {
+      "filename": "IMG_3823.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3823.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3823.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T02:09:10.000Z"
+    },
+    {
+      "filename": "IMG_3829.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3829.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3829.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T02:11:59.000Z"
+    },
+    {
+      "filename": "IMG_3849.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3849.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3849.jpg",
+      "width": 2320,
+      "height": 3088,
+      "dateTaken": "2018-09-06T16:30:48.000Z"
+    },
+    {
+      "filename": "IMG_3852.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3852.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3852.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T17:45:05.000Z"
+    },
+    {
+      "filename": "IMG_3857.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3857.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3857.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T17:52:19.000Z"
+    },
+    {
+      "filename": "IMG_3863.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3863.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3863.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2018-09-06T18:00:26.000Z"
+    },
+    {
+      "filename": "IMG_3867.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3867.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3867.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T18:21:17.000Z"
+    },
+    {
+      "filename": "IMG_3869.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3869.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3869.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2018-09-06T18:24:33.000Z"
+    },
+    {
+      "filename": "IMG_3878.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3878.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3878.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2018-09-06T18:56:57.000Z"
+    },
+    {
+      "filename": "IMG_3885.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3885.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3885.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T19:10:45.000Z"
+    },
+    {
+      "filename": "IMG_3896.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3896.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3896.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2018-09-06T19:23:48.000Z"
+    },
+    {
+      "filename": "IMG_3900.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3900.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3900.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T20:03:04.000Z"
+    },
+    {
+      "filename": "IMG_3902.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3902.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3902.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T20:04:49.000Z"
+    },
+    {
+      "filename": "IMG_3903.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3903.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3903.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T20:05:41.000Z"
+    },
+    {
+      "filename": "IMG_3911.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3911.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3911.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T21:26:20.000Z"
+    },
+    {
+      "filename": "IMG_3914.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3914.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3914.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T21:33:58.000Z"
+    },
+    {
+      "filename": "IMG_3918.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3918.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3918.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T21:35:33.000Z"
+    },
+    {
+      "filename": "IMG_3926.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3926.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3926.jpg",
+      "width": 2320,
+      "height": 3088,
+      "dateTaken": "2018-09-06T21:39:52.000Z"
+    },
+    {
+      "filename": "IMG_3937.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3937.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3937.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T21:58:53.000Z"
+    },
+    {
+      "filename": "IMG_3940.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3940.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3940.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T22:03:03.000Z"
+    },
+    {
+      "filename": "IMG_3941.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3941.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3941.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T22:15:28.000Z"
+    },
+    {
+      "filename": "IMG_3947.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3947.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3947.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T22:19:15.000Z"
+    },
+    {
+      "filename": "IMG_3968.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3968.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3968.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2018-09-06T23:40:01.000Z"
+    },
+    {
+      "filename": "IMG_3970.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3970.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3970.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-06T23:40:13.000Z"
+    },
+    {
+      "filename": "IMG_3996.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_3996.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_3996.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-07T02:05:47.000Z"
+    },
+    {
+      "filename": "IMG_4004.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_4004.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_4004.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-07T02:11:27.000Z"
+    },
+    {
+      "filename": "IMG_4050.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_4050.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_4050.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-07T19:45:40.000Z"
+    },
+    {
+      "filename": "IMG_4054.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_4054.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_4054.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-07T19:58:59.000Z"
+    },
+    {
+      "filename": "IMG_4056.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_4056.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_4056.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2018-09-07T20:06:09.000Z"
+    },
+    {
+      "filename": "IMG_4061.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_4061.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_4061.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-07T20:20:17.000Z"
+    },
+    {
+      "filename": "IMG_4062.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_4062.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_4062.jpg",
+      "width": 3088,
+      "height": 2320,
+      "dateTaken": "2018-09-07T20:21:43.000Z"
+    },
+    {
+      "filename": "IMG_4064.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_4064.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_4064.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-07T20:22:44.000Z"
+    },
+    {
+      "filename": "IMG_4068.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_4068.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_4068.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2018-09-07T20:41:24.000Z"
+    },
+    {
+      "filename": "IMG_4085.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/IMG_4085.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/crater-lake/thumbs/IMG_4085.jpg",
+      "width": 3088,
+      "height": 2320,
+      "dateTaken": "2018-09-07T22:12:34.000Z"
+    }
+  ]
 }
