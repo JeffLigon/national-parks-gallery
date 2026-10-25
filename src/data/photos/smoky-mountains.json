@@ -1,6 +1,287 @@
 {
   "park": "smoky-mountains",
-  "generatedAt": "2026-09-01T23:52:08.335Z",
-  "hero": null,
-  "photos": []
+  "generatedAt": "2026-10-25T01:54:32.252Z",
+  "hero": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/hero.jpg",
+  "photos": [
+    {
+      "filename": "IMG_8856.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8856.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8856.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T16:52:47.000Z"
+    },
+    {
+      "filename": "IMG_8857.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8857.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8857.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T16:52:54.000Z"
+    },
+    {
+      "filename": "IMG_8858.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8858.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8858.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T16:53:52.000Z"
+    },
+    {
+      "filename": "IMG_8860.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8860.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8860.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T16:57:53.000Z"
+    },
+    {
+      "filename": "IMG_8861.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8861.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8861.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:02:29.000Z"
+    },
+    {
+      "filename": "IMG_8863.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8863.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8863.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:03:04.000Z"
+    },
+    {
+      "filename": "IMG_8866.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8866.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8866.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:15:09.000Z"
+    },
+    {
+      "filename": "IMG_8870.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8870.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8870.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:18:01.000Z"
+    },
+    {
+      "filename": "IMG_8871.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8871.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8871.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:19:16.000Z"
+    },
+    {
+      "filename": "IMG_8872.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8872.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8872.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:19:20.000Z"
+    },
+    {
+      "filename": "IMG_8873.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8873.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8873.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:22:39.000Z"
+    },
+    {
+      "filename": "IMG_8874.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8874.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8874.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:28:42.000Z"
+    },
+    {
+      "filename": "IMG_8875.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8875.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8875.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:30:13.000Z"
+    },
+    {
+      "filename": "IMG_8876.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8876.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8876.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:32:27.000Z"
+    },
+    {
+      "filename": "IMG_8877.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8877.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8877.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:35:30.000Z"
+    },
+    {
+      "filename": "IMG_8878.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8878.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8878.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:38:39.000Z"
+    },
+    {
+      "filename": "IMG_8882.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8882.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8882.jpg",
+      "width": 3024,
+      "height": 3024,
+      "dateTaken": "2019-10-20T17:44:21.000Z"
+    },
+    {
+      "filename": "IMG_8883.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8883.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8883.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:48:32.000Z"
+    },
+    {
+      "filename": "IMG_8887.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8887.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8887.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:54:22.000Z"
+    },
+    {
+      "filename": "IMG_8888.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8888.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8888.jpg",
+      "width": 2880,
+      "height": 3840,
+      "dateTaken": "2019-10-20T17:58:39.000Z"
+    },
+    {
+      "filename": "IMG_8889.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8889.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8889.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T17:59:21.000Z"
+    },
+    {
+      "filename": "IMG_8893.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8893.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8893.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T18:09:01.000Z"
+    },
+    {
+      "filename": "IMG_8894.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8894.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8894.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T18:15:40.000Z"
+    },
+    {
+      "filename": "IMG_8896.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8896.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8896.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T18:18:49.000Z"
+    },
+    {
+      "filename": "IMG_8897.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8897.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8897.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T18:31:21.000Z"
+    },
+    {
+      "filename": "IMG_8899.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8899.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8899.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T18:32:19.000Z"
+    },
+    {
+      "filename": "IMG_8902.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8902.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8902.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T18:40:29.000Z"
+    },
+    {
+      "filename": "IMG_8903.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8903.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8903.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T18:47:21.000Z"
+    },
+    {
+      "filename": "IMG_8905.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8905.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8905.jpg",
+      "width": 3840,
+      "height": 2880,
+      "dateTaken": "2019-10-20T19:14:57.000Z"
+    },
+    {
+      "filename": "IMG_8918.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8918.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8918.jpg",
+      "width": 3000,
+      "height": 2250,
+      "dateTaken": "2019-10-21T17:06:59.000Z"
+    },
+    {
+      "filename": "IMG_8919.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8919.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8919.jpg",
+      "width": 3000,
+      "height": 2250,
+      "dateTaken": "2019-10-21T17:11:46.000Z"
+    },
+    {
+      "filename": "IMG_8920.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8920.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8920.jpg",
+      "width": 3000,
+      "height": 2250,
+      "dateTaken": "2019-10-21T17:11:50.000Z"
+    },
+    {
+      "filename": "IMG_8921.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8921.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8921.jpg",
+      "width": 3000,
+      "height": 2250,
+      "dateTaken": "2019-10-21T17:12:00.000Z"
+    },
+    {
+      "filename": "IMG_8922.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8922.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8922.jpg",
+      "width": 2250,
+      "height": 3000,
+      "dateTaken": "2019-10-21T17:12:08.000Z"
+    },
+    {
+      "filename": "IMG_8923.jpg",
+      "display": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/IMG_8923.jpg",
+      "thumb": "https://pub-5aee0b5c1b134f17a5ec76499f26ce59.r2.dev/parks/smoky-mountains/thumbs/IMG_8923.jpg",
+      "width": 2250,
+      "height": 3000,
+      "dateTaken": "2019-10-21T17:12:15.000Z"
+    }
+  ]
 }

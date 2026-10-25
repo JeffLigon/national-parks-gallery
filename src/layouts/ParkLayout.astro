@@ -21,7 +21,7 @@ interface Props {
     subtitle: string;
     description: string;
     howToGetThere: { airport: string; notes: string };
-    placesToStay: { label: string; url: string }[];
+    placesToStay: { label: string; url?: string }[];
   };
   galleryData: { park: string; photos: GalleryPhoto[] };
   galleryId?: string;
@@ -71,7 +71,7 @@ const photos = galleryData.photos.map((p) => ({
         <h3>Places to stay</h3>
         <ul>
           {park.placesToStay.map((place) => (
-            <li><a href={place.url} target="_blank" rel="noopener">{place.label}</a></li>
+            <li>{place.url ? <a href={place.url} target="_blank" rel="noopener">{place.label}</a> : place.label}</li>
           ))}
         </ul>
       </div>
