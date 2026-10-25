@@ -25,11 +25,29 @@ interface Props {
   };
   galleryData: { park: string; photos: GalleryPhoto[] };
   galleryId?: string;
+  photoPositions?: { filename: string; position: number }[];
 }
 
-const { park, galleryData, galleryId = `${galleryData.park}-gallery` } = Astro.props;
+const { park, galleryData, galleryId = `${galleryData.park}-gallery`, photoPositions = [] } = Astro.props;
 
-const photos = galleryData.photos.map((p) => ({
+// Positions are one-based; unpinned photos retain their manifest (date) order.
+const pinnedNames = new Set<string>();
+const pinnedPositions = new Set<number>();
+for (const { filename, position } of photoPositions) {
+  if (!galleryData.photos.some((photo) => photo.filename === filename)
+    || !Number.isInteger(position) || position < 1 || position > galleryData.photos.length
+    || pinnedNames.has(filename) || pinnedPositions.has(position)) {
+    throw new Error(`Invalid photo position for "${filename}" in ${galleryData.park}.`);
+  }
+  pinnedNames.add(filename);
+  pinnedPositions.add(position);
+}
+const orderedPhotos = galleryData.photos.filter((photo) => !pinnedNames.has(photo.filename));
+for (const { filename, position } of [...photoPositions].sort((a, b) => a.position - b.position)) {
+  const photo = galleryData.photos.find((photo) => photo.filename === filename)!;
+  orderedPhotos.splice(position - 1, 0, photo);
+}
+const photos = orderedPhotos.map((p) => ({
   ...p,
   title: p.filename,
   alt: p.filename,
